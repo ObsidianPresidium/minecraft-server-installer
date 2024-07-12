@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling", "pythondialog"]
+build-backend = ["hatchling.build"]
+
+[project]
+name = "minecraft-server-installer"
+version = "0.0.1"
+authors = [
+  { name="ObsidianPresidium", email="emil@aarestrup.nu" },
+]
+description = "A Minecraft server installer for headless Linux systems"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+Homepage = "https://github.com/ObsidianPresidium/minecraft-server-installer"
+Issues = "https://github.com/ObsidianPresidium/minecraft-server-installer/issues"
